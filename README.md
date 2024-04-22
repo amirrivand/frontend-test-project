@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is the "Test project guide"
 
-## Getting Started
+## API ENDPOINT
+
+`https://freetestapi.com/api/v1/products`
+
+### Query Params
+
+- `search: (type String)`
+- `limit: (type Number)`
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+You have 40 minutes to develop a simple search application using nextjs framework in language of typescript.
+Form and FetchedItem components have been created prehand to decrease the wasting time.
+Search action must be run every 808 miliseconds & ignored while input value is empty.
+While input value is not null and user presses the Enter Key, value must be stored in local-storage as Search History (string[]).
+Search histories must be shown as suggestion using datalist element.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+شما 40 دقیقه فرصت دارید تا یک برنامه جستجوی ساده را با استفاده از چارچوب NextJS به زبان TypeScript پیاده سازی کنید.
+فرم و کامپوننت محصول برای کاهش زمان هدر رفتن ایجاد شده اند.
+اقدام جستجو باید هر 808 میلی ثانیه انجام شود و در حالی که مقدار ورودی خالی است نادیده گرفته شود.
+در حالی که مقدار ورودی تهی نیست و کاربر کلید Enter را فشار می دهد ، مقدار باید در local-storage به عنوان تاریخچه جستجو ذخیره شود (string[]).
+تاریخچه جستجو باید به عنوان پیشنهاد با استفاده از عنصر Datalist نشان داده شود.
+```
