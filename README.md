@@ -9,7 +9,7 @@ This is the "Test project guide"
 - `search: (type String)`
 - `limit: (type Number)`
 
-First, run the development server:
+Rules:
 
 ```
 You have 40 minutes to develop a simple search application using nextjs framework in language of typescript.
