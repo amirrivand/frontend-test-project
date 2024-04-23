@@ -14,7 +14,7 @@ First, run the development server:
 ```
 You have 40 minutes to develop a simple search application using nextjs framework in language of typescript.
 Form and FetchedItem components have been created prehand to decrease the wasting time.
-Search action must be run every 808 miliseconds & ignored while input value is empty.
+Search action must be debounced with 808 miliseconds & ignored while input value is empty.
 While input value is not null and user presses the Enter Key, value must be stored in local-storage as Search History (string[]).
 Search histories must be shown as suggestion using datalist element.
 ```
